@@ -76,7 +76,7 @@ public class ApiModel {
 
 	public void setPrice(long price) {
 		this.price = price;
-	}
+	} 
 
 	public BuyModel getBm() {
 		return bm;
