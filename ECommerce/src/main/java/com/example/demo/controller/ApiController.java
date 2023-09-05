@@ -40,7 +40,7 @@ public class ApiController {
 	public ApiModel modify(@RequestBody ApiModel s) {
 		return aser.changeinfo(s);
 	}
-	
+	       
 	@DeleteMapping("delete")
 	public String del(@RequestBody ApiModel s) {
 		aser.deleteinfo(s);
