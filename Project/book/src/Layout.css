@@ -1,0 +1,25 @@
+.layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  main-tit {
+    padding-top: 20rem;
+    font-size: 3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration : underline;
+    text-align: center;
+  }
+  .centered-text {
+    padding-top: 10rem;
+    padding-left: 17rem;
+    text-align: center;
+
+  }
